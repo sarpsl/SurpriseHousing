@@ -18,13 +18,16 @@ How well those variables describe the price of a house.
 Also, determine the optimal value of lambda for ridge and lasso regression.
 
 Business Goal:
+
 You are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 
 Dataset:
+
 Datset for this is provided by upGrad which contains 81 columns and 1460 rows. Accompanied by data-definition explaining the metadata of the dataset.
 
 ## Conclusions
 Got the following r2 score for,
+
 Ridge
 - Train: 0.9212172818478634
 - Test: 0.8793046041474403
@@ -33,7 +36,7 @@ Lasso
 - Train: 0.9209786266433511
 - Test: 0.8807280483737678
 
-Selected Lasso model basing on the scores.
+Selected Lasso model basing on the scores
 
 ## Technologies Used
 - Python - 3.9.17
